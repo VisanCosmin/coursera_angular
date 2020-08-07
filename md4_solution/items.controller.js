@@ -1,0 +1,1 @@
+!function(){"use strict";function e(e,t){var s=this;s.items=t.menu_items,s.category=t.category.name,s.selectedIdx=0,s.setSelected=function(e){console.log("itemsList.setSelected idx: ",e),s.selectedIdx==e?s.selectedIdx=null:s.selectedIdx=e}}angular.module("MenuApp").controller("ItemsListController",e),e.$inject=["MenuDataService","items"]}();
