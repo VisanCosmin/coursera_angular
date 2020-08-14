@@ -1,0 +1,1 @@
+!function(){"use strict";angular.module("common").service("SignUpStorage",["$window",function(t){this.storeObject=function(e,o){t.localStorage[e]=JSON.stringify(o)},this.getObject=function(e,o){return JSON.parse(t.localStorage[e]||o)},this.removeRecord=function(e){t.localStorage.removeItem(e)}}])}();
